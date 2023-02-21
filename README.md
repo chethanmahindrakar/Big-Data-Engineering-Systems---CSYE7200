@@ -1,2 +1,2 @@
 # CSYE7200
-Public repository without solutions for CSYE7200
+Branch with all updated solutions for the CSYE7200 course at Northeastern.
