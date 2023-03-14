@@ -143,7 +143,7 @@ class MovieSpec extends AnyFlatSpec with Matchers {
 
   behavior of "Movie.testSerializationAndDeserialization"
 
-  it should "work for the sample file" in {
+ it should "work for the sample file" in {
     val ingester = new Ingest[Movie]()
     implicit val codec: Codec = Codec.UTF8
     val source = Source.fromResource("movie_metadata.csv")

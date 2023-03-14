@@ -64,7 +64,7 @@ case class JavaRandomState[T](n: Long, g: Long => T) extends RandomState[T] {
   def get: T = g(n) // TO BE IMPLEMENTED
   // Hint: This one need function composition.
   // 13 points
-  def map[U](f: T => U): RandomState[U] = JavaRandomState(n, g andThen f) // TO BE IMPLEMENTED
+  def map[U](f: T => U): RandomState[U] = JavaRandomState(n, g.andThen(f)) // TO BE IMPLEMENTED
 }
 
 case class DoubleRandomState(n: Long) extends RandomState[Double] {
@@ -94,7 +94,7 @@ object RandomState {
 
   // Hint: This is a easy one, remember that it not only convert a Long to a Double but also scale down the number to -1 ~ 1.
   // 4 points
-  val longToDouble: Long => Double = x => 2 * (x.toDouble - Long.MinValue.toDouble) / (Long.MaxValue.toDouble - Long.MinValue.toDouble) -1 // TO BE IMPLEMENTED
+  val longToDouble: Long => Double = x => 2 * ((x.toDouble - Long.MinValue.toDouble) / (Long.MaxValue.toDouble - Long.MinValue.toDouble)) -1 // TO BE IMPLEMENTED
   val doubleToUniformDouble: Double => UniformDouble = { x => UniformDouble((x + 1) / 2) }
 }
 
