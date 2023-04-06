@@ -1,0 +1,553 @@
+Executing command, time = 1680804023889.
+Executing command, time = 1680804091192.
+Executing command, time = 1680804154977.
+Executing command, time = 1680804159791.
+Executing command, time = 1680804175108.
+Executing command, time = 1680804220545.
+Executing command, time = 1680804221377.
+2023-04-06T18:03:43.616+0000: [GC (Allocation Failure) [PSYoungGen: 2269018K->37748K(2339840K)] 2697535K->466273K(7291904K), 0.0565347 secs] [Times: user=0.09 sys=0.00, real=0.05 secs] 
+Executing command, time = 1680804225873.
+Executing command, time = 1680804365727.
+Executing command, time = 1680804393129.
++-----------+--------+------+--------------------+----+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+
+|PassengerId|Survived|Pclass|                Name| Age|SibSp|Parch|          Ticket|   Fare|Cabin|Embarked|Embarked_Indexed|Pclass_Indexed|Male|FamilyMembers|FamilySize|AgeGroup|FareGroup|Embarked_Indexed_Vec|Pclass_Indexed_Vec|FamilySize_Vec|FareGroup_Vec| AgeGroup_Vec|
++-----------+--------+------+--------------------+----+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+
+|          1|       0|     3|Braund, Mr. Owen ...|22.0|    1|    0|       A/5 21171|   7.25| null|       S|             0.0|           0.0|   1|            1|         2|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
+|          2|       1|     1|Cumings, Mrs. Joh...|38.0|    1|    0|        PC 17599|71.2833|  C85|       C|             1.0|           1.0|   0|            1|         2|     3.0|      4.0|       (2,[1],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|
+|          3|       1|     3|Heikkinen, Miss. ...|26.0|    0|    0|STON/O2. 3101282|  7.925| null|       S|             0.0|           0.0|   0|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
+|          4|       1|     1|Futrelle, Mrs. Ja...|35.0|    1|    0|          113803|   53.1| C123|       S|             0.0|           1.0|   0|            1|         2|     3.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|
+|          5|       0|     3|Allen, Mr. Willia...|35.0|    0|    0|          373450|   8.05| null|       S|             0.0|           0.0|   1|            0|         1|     3.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|
+|          6|       0|     3|    Moran, Mr. James|null|    0|    0|          330877| 8.4583| null|       Q|             2.0|           0.0|   1|            0|         1|    null|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|         null|
+|          7|       0|     1|McCarthy, Mr. Tim...|54.0|    0|    0|           17463|51.8625|  E46|       S|             0.0|           1.0|   1|            0|         1|     3.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[1],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|
+|          8|       0|     3|Palsson, Master. ...| 2.0|    3|    1|          349909| 21.075| null|       S|             0.0|           0.0|   1|            4|         3|     0.0|      2.0|       (2,[0],[1.0])|     (2,[0],[1.0])|     (3,[],[])|(5,[2],[1.0])|(4,[0],[1.0])|
+|          9|       1|     3|Johnson, Mrs. Osc...|27.0|    0|    2|          347742|11.1333| null|       S|             0.0|           0.0|   0|            2|         2|     2.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|
+|         10|       1|     2|Nasser, Mrs. Nich...|14.0|    1|    0|          237736|30.0708| null|       C|             1.0|           2.0|   0|            1|         2|     1.0|      3.0|       (2,[1],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[3],[1.0])|(4,[1],[1.0])|
+|         11|       1|     3|Sandstrom, Miss. ...| 4.0|    1|    1|         PP 9549|   16.7|   G6|       S|             0.0|           0.0|   0|            2|         2|     0.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[0],[1.0])|
+|         12|       1|     1|Bonnell, Miss. El...|58.0|    0|    0|          113783|  26.55| C103|       S|             0.0|           1.0|   0|            0|         1|     3.0|      2.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[1],[1.0])|(5,[2],[1.0])|(4,[3],[1.0])|
+|         13|       0|     3|Saundercock, Mr. ...|20.0|    0|    0|       A/5. 2151|   8.05| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
+|         14|       0|     3|Andersson, Mr. An...|39.0|    1|    5|          347082| 31.275| null|       S|             0.0|           0.0|   1|            6|         3|     3.0|      3.0|       (2,[0],[1.0])|     (2,[0],[1.0])|     (3,[],[])|(5,[3],[1.0])|(4,[3],[1.0])|
+|         15|       0|     3|Vestrom, Miss. Hu...|14.0|    0|    0|          350406| 7.8542| null|       S|             0.0|           0.0|   0|            0|         1|     1.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[1],[1.0])|
+|         16|       1|     2|Hewlett, Mrs. (Ma...|55.0|    0|    0|          248706|   16.0| null|       S|             0.0|           2.0|   0|            0|         1|     3.0|      1.0|       (2,[0],[1.0])|         (2,[],[])| (3,[1],[1.0])|(5,[1],[1.0])|(4,[3],[1.0])|
+|         17|       0|     3|Rice, Master. Eugene| 2.0|    4|    1|          382652| 29.125| null|       Q|             2.0|           0.0|   1|            5|         3|     0.0|      2.0|           (2,[],[])|     (2,[0],[1.0])|     (3,[],[])|(5,[2],[1.0])|(4,[0],[1.0])|
+|         18|       1|     2|Williams, Mr. Cha...|null|    0|    0|          244373|   13.0| null|       S|             0.0|           2.0|   1|            0|         1|    null|      1.0|       (2,[0],[1.0])|         (2,[],[])| (3,[1],[1.0])|(5,[1],[1.0])|         null|
+|         19|       0|     3|Vander Planke, Mr...|31.0|    1|    0|          345763|   18.0| null|       S|             0.0|           0.0|   0|            1|         2|     2.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|
+|         20|       1|     3|Masselmani, Mrs. ...|null|    0|    0|            2649|  7.225| null|       C|             1.0|           0.0|   0|            0|         1|    null|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|         null|
++-----------+--------+------+--------------------+----+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+
+only showing top 20 rows
+
+Executing command, time = 1680804539625.
+2023-04-06T18:09:27.708+0000: [GC (Allocation Failure) [PSYoungGen: 2235764K->74354K(2334208K)] 2664289K->502888K(7286272K), 0.0853816 secs] [Times: user=0.15 sys=0.00, real=0.08 secs] 
+Executing command, time = 1680804674933.
+Executing command, time = 1680804687439.
+2023-04-06T18:11:29.395+0000: [GC (Allocation Failure) [PSYoungGen: 2272370K->105445K(2319872K)] 2700904K->533979K(7271936K), 0.1090336 secs] [Times: user=0.17 sys=0.00, real=0.11 secs] 
+Executing command, time = 1680804745344.
+Executing command, time = 1680804746297.
+Executing command, time = 1680804751678.
++-----------+--------+------+--------------------+-----------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+
+|PassengerId|Survived|Pclass|                Name|              Age|SibSp|Parch|          Ticket|   Fare|Cabin|Embarked|Embarked_Indexed|Pclass_Indexed|Male|FamilyMembers|FamilySize|AgeGroup|FareGroup|Embarked_Indexed_Vec|Pclass_Indexed_Vec|FamilySize_Vec|FareGroup_Vec| AgeGroup_Vec|
++-----------+--------+------+--------------------+-----------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+
+|          1|       0|     3|Braund, Mr. Owen ...|             22.0|    1|    0|       A/5 21171|   7.25| null|       S|             0.0|           0.0|   1|            1|         2|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
+|          2|       1|     1|Cumings, Mrs. Joh...|             38.0|    1|    0|        PC 17599|71.2833|  C85|       C|             1.0|           1.0|   0|            1|         2|     3.0|      4.0|       (2,[1],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|
+|          3|       1|     3|Heikkinen, Miss. ...|             26.0|    0|    0|STON/O2. 3101282|  7.925| null|       S|             0.0|           0.0|   0|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
+|          4|       1|     1|Futrelle, Mrs. Ja...|             35.0|    1|    0|          113803|   53.1| C123|       S|             0.0|           1.0|   0|            1|         2|     3.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|
+|          5|       0|     3|Allen, Mr. Willia...|             35.0|    0|    0|          373450|   8.05| null|       S|             0.0|           0.0|   1|            0|         1|     3.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|
+|          6|       0|     3|    Moran, Mr. James|29.69911764705882|    0|    0|          330877| 8.4583| null|       Q|             2.0|           0.0|   1|            0|         1|     2.0|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
+|          7|       0|     1|McCarthy, Mr. Tim...|             54.0|    0|    0|           17463|51.8625|  E46|       S|             0.0|           1.0|   1|            0|         1|     3.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[1],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|
+|          8|       0|     3|Palsson, Master. ...|              2.0|    3|    1|          349909| 21.075| null|       S|             0.0|           0.0|   1|            4|         3|     0.0|      2.0|       (2,[0],[1.0])|     (2,[0],[1.0])|     (3,[],[])|(5,[2],[1.0])|(4,[0],[1.0])|
+|          9|       1|     3|Johnson, Mrs. Osc...|             27.0|    0|    2|          347742|11.1333| null|       S|             0.0|           0.0|   0|            2|         2|     2.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|
+|         10|       1|     2|Nasser, Mrs. Nich...|             14.0|    1|    0|          237736|30.0708| null|       C|             1.0|           2.0|   0|            1|         2|     1.0|      3.0|       (2,[1],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[3],[1.0])|(4,[1],[1.0])|
+|         11|       1|     3|Sandstrom, Miss. ...|              4.0|    1|    1|         PP 9549|   16.7|   G6|       S|             0.0|           0.0|   0|            2|         2|     0.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[0],[1.0])|
+|         12|       1|     1|Bonnell, Miss. El...|             58.0|    0|    0|          113783|  26.55| C103|       S|             0.0|           1.0|   0|            0|         1|     3.0|      2.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[1],[1.0])|(5,[2],[1.0])|(4,[3],[1.0])|
+|         13|       0|     3|Saundercock, Mr. ...|             20.0|    0|    0|       A/5. 2151|   8.05| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
+|         14|       0|     3|Andersson, Mr. An...|             39.0|    1|    5|          347082| 31.275| null|       S|             0.0|           0.0|   1|            6|         3|     3.0|      3.0|       (2,[0],[1.0])|     (2,[0],[1.0])|     (3,[],[])|(5,[3],[1.0])|(4,[3],[1.0])|
+|         15|       0|     3|Vestrom, Miss. Hu...|             14.0|    0|    0|          350406| 7.8542| null|       S|             0.0|           0.0|   0|            0|         1|     1.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[1],[1.0])|
+|         16|       1|     2|Hewlett, Mrs. (Ma...|             55.0|    0|    0|          248706|   16.0| null|       S|             0.0|           2.0|   0|            0|         1|     3.0|      1.0|       (2,[0],[1.0])|         (2,[],[])| (3,[1],[1.0])|(5,[1],[1.0])|(4,[3],[1.0])|
+|         17|       0|     3|Rice, Master. Eugene|              2.0|    4|    1|          382652| 29.125| null|       Q|             2.0|           0.0|   1|            5|         3|     0.0|      2.0|           (2,[],[])|     (2,[0],[1.0])|     (3,[],[])|(5,[2],[1.0])|(4,[0],[1.0])|
+|         18|       1|     2|Williams, Mr. Cha...|29.69911764705882|    0|    0|          244373|   13.0| null|       S|             0.0|           2.0|   1|            0|         1|     2.0|      1.0|       (2,[0],[1.0])|         (2,[],[])| (3,[1],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|
+|         19|       0|     3|Vander Planke, Mr...|             31.0|    1|    0|          345763|   18.0| null|       S|             0.0|           0.0|   0|            1|         2|     2.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|
+|         20|       1|     3|Masselmani, Mrs. ...|29.69911764705882|    0|    0|            2649|  7.225| null|       C|             1.0|           0.0|   0|            0|         1|     2.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|
++-----------+--------+------+--------------------+-----------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+
+only showing top 20 rows
+
+Executing command, time = 1680804753173.
+2023-04-06T18:12:36.239+0000: [GC (Allocation Failure) [PSYoungGen: 2289637K->92769K(2277376K)] 2718171K->521310K(7229440K), 0.0954463 secs] [Times: user=0.16 sys=0.00, real=0.09 secs] 
+Executing command, time = 1680804842790.
+2023-04-06T18:14:05.692+0000: [GC (Allocation Failure) [PSYoungGen: 2276961K->75036K(2331136K)] 2705502K->503577K(7283200K), 0.1471984 secs] [Times: user=0.27 sys=0.00, real=0.15 secs] 
+2023-04-06T18:15:25.636+0000: [GC (System.gc()) [PSYoungGen: 1594884K->70055K(2326528K)] 2023426K->498604K(7278592K), 0.0799030 secs] [Times: user=0.15 sys=0.00, real=0.08 secs] 
+2023-04-06T18:15:25.716+0000: [Full GC (System.gc()) [PSYoungGen: 70055K->0K(2326528K)] [ParOldGen: 428549K->466421K(4952064K)] 498604K->466421K(7278592K), [Metaspace: 346879K->344629K(1388544K)], 2.1326781 secs] [Times: user=3.69 sys=0.01, real=2.13 secs] 
+Executing command, time = 1680804995347.
+Executing command, time = 1680805027670.
+2023-04-06T18:17:08.252+0000: [GC (Allocation Failure) [PSYoungGen: 2181632K->26751K(2337792K)] 2648053K->493173K(7289856K), 0.0528941 secs] [Times: user=0.07 sys=0.00, real=0.06 secs] 
+Executing command, time = 1680805048318.
+2023-04-06T18:17:31.312+0000: [GC (Allocation Failure) [PSYoungGen: 2225279K->36395K(2336768K)] 2691701K->502816K(7288832K), 0.1252994 secs] [Times: user=0.14 sys=0.00, real=0.13 secs] 
+Executing command, time = 1680805391133.
+2023-04-06T18:23:15.625+0000: [GC (Allocation Failure) [PSYoungGen: 2234923K->54316K(2348032K)] 2701344K->520738K(7300096K), 0.0500483 secs] [Times: user=0.08 sys=0.01, real=0.05 secs] 
+Executing command, time = 1680805406297.
+Executing command, time = 1680805446030.
+Executing command, time = 1680805467775.
+2023-04-06T18:24:33.816+0000: [GC (Allocation Failure) [PSYoungGen: 2267692K->77543K(2341376K)] 2734114K->543965K(7293440K), 0.0736719 secs] [Times: user=0.12 sys=0.00, real=0.07 secs] 
+Executing command, time = 1680805604769.
+2023-04-06T18:27:11.031+0000: [GC (Allocation Failure) [PSYoungGen: 2290919K->62071K(2354176K)] 2757341K->528493K(7306240K), 0.0656137 secs] [Times: user=0.10 sys=0.00, real=0.07 secs] 
+Executing command, time = 1680805731991.
+Executing command, time = 1680805762218.
+2023-04-06T18:30:05.622+0000: [GC (Allocation Failure) [PSYoungGen: 2288247K->70575K(2348032K)] 2754669K->537004K(7300096K), 0.0820949 secs] [Times: user=0.14 sys=0.00, real=0.09 secs] 
+Executing command, time = 1680805812964.
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+
+Executing command, time = 1680805831312.
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+
+Executing command, time = 1680805841645.
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+
+Executing command, time = 1680805904083.
+2023-04-06T18:31:51.310+0000: [GC (Allocation Failure) [PSYoungGen: 2295827K->80811K(2354176K)] 2762257K->547241K(7306240K), 0.0870763 secs] [Times: user=0.15 sys=0.00, real=0.09 secs] 
+Executing command, time = 1680805938695.
+Executing command, time = 1680805997485.
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+
+2023-04-06T18:34:15.622+0000: [GC (Allocation Failure) [PSYoungGen: 2315179K->66689K(2355200K)] 2781609K->533118K(7307264K), 0.0769447 secs] [Times: user=0.14 sys=0.00, real=0.08 secs] 
+Executing command, time = 1680806089034.
+Executing command, time = 1680806102279.
+Training Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- features: vector (nullable = true)
+
+Validation Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- features: vector (nullable = true)
+
+Executing command, time = 1680806107292.
+2023-04-06T18:35:07.912+0000: [GC (Allocation Failure) [PSYoungGen: 2301057K->73514K(2361344K)] 2767486K->539944K(7313408K), 0.0891794 secs] [Times: user=0.17 sys=0.00, real=0.09 secs] 
+Executing command, time = 1680806153590.
+2023-04-06T18:35:55.492+0000: [GC (Allocation Failure) [PSYoungGen: 2318634K->80267K(2359808K)] 2785064K->546697K(7311872K), 0.1051554 secs] [Times: user=0.18 sys=0.00, real=0.11 secs] 
+Executing command, time = 1680806324269.
+Executing command, time = 1680806340407.
+Executing command, time = 1680806350490.
+Training Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- features: vector (nullable = true)
+
+Validation Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- features: vector (nullable = true)
+
+Executing command, time = 1680806359820.
+Executing command, time = 1680806430312.
+Training Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- assembled_features: vector (nullable = true)
+
+Validation Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- assembled_features: vector (nullable = true)
+
+2023-04-06T18:40:46.313+0000: [GC (Allocation Failure) [PSYoungGen: 2325387K->82406K(2358272K)] 2791817K->548835K(7310336K), 0.1024978 secs] [Times: user=0.19 sys=0.00, real=0.11 secs] 
+Executing command, time = 1680806446047.
+Executing command, time = 1680806470736.
+Training Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- assembled_features: vector (nullable = true)
+
+Validation Data Schema:
+root
+ |-- PassengerId: integer (nullable = true)
+ |-- Survived: integer (nullable = true)
+ |-- Pclass: integer (nullable = true)
+ |-- Name: string (nullable = true)
+ |-- Age: double (nullable = false)
+ |-- SibSp: integer (nullable = true)
+ |-- Parch: integer (nullable = true)
+ |-- Ticket: string (nullable = true)
+ |-- Fare: double (nullable = false)
+ |-- Cabin: string (nullable = true)
+ |-- Embarked: string (nullable = true)
+ |-- Embarked_Indexed: double (nullable = false)
+ |-- Pclass_Indexed: double (nullable = false)
+ |-- Male: integer (nullable = false)
+ |-- FamilyMembers: integer (nullable = true)
+ |-- FamilySize: integer (nullable = false)
+ |-- AgeGroup: double (nullable = false)
+ |-- FareGroup: double (nullable = false)
+ |-- Embarked_Indexed_Vec: vector (nullable = true)
+ |-- Pclass_Indexed_Vec: vector (nullable = true)
+ |-- FamilySize_Vec: vector (nullable = true)
+ |-- FareGroup_Vec: vector (nullable = true)
+ |-- AgeGroup_Vec: vector (nullable = true)
+ |-- assembled_features: vector (nullable = true)
+
+Executing command, time = 1680806474275.
+Executing command, time = 1680806532373.
+Executing command, time = 1680806574813.
+2023-04-06T18:45:25.636+0000: [GC (System.gc()) [PSYoungGen: 1237344K->87176K(2330112K)] 1703774K->553614K(7282176K), 0.1023834 secs] [Times: user=0.17 sys=0.00, real=0.10 secs] 
+2023-04-06T18:45:25.739+0000: [Full GC (System.gc()) [PSYoungGen: 87176K->0K(2330112K)] [ParOldGen: 466437K->508405K(4952064K)] 553614K->508405K(7282176K), [Metaspace: 352738K->349985K(1394688K)], 1.8085854 secs] [Times: user=3.11 sys=0.03, real=1.81 secs] 
+Executing command, time = 1680806736254.
+Executing command, time = 1680806746202.
+Executing command, time = 1680806763066.
+2023-04-06T18:47:47.341+0000: [GC (Allocation Failure) [PSYoungGen: 2242560K->25473K(2352128K)] 2750965K->533879K(7304192K), 0.0437278 secs] [Times: user=0.07 sys=0.00, real=0.05 secs] 
+Executing command, time = 1680806867167.
+Area under ROC curve = 0.8962967725343964
+Executing command, time = 1680806961582.
+Executing command, time = 1680807149037.
+Executing command, time = 1680807160518.
+Executing command, time = 1680807168959.
+Executing command, time = 1680807192226.
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+|PassengerId|Pclass|                Name|               Age|SibSp|Parch|          Ticket|   Fare|Cabin|Embarked|Embarked_Indexed|Pclass_Indexed|Male|FamilyMembers|FamilySize|AgeGroup|FareGroup|Embarked_Indexed_Vec|Pclass_Indexed_Vec|FamilySize_Vec|FareGroup_Vec| AgeGroup_Vec| prediction_survival|            features|       rawPrediction|         probability|prediction|
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+|        892|     3|    Kelly, Mr. James|              34.5|    0|    0|          330911| 7.8292| null|       Q|             2.0|           0.0|   1|            0|         1|     2.0|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,5,7,14,16]...|(17,[0,5,7,14,16]...|[87.4176776600730...|[0.87417677660073...|       0.0|
+|        893|     3|Wilkes, Mrs. Jame...|              47.0|    1|    0|          363272|    7.0| null|       S|             0.0|           0.0|   0|            1|         2|     3.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|(17,[0,2,6,7,15],...|(17,[0,2,6,7,15],...|[63.3261391778415...|[0.63326139177841...|       0.0|
+|        894|     2|Myles, Mr. Thomas...|              62.0|    0|    0|          240276| 9.6875| null|       Q|             2.0|           2.0|   1|            0|         1|     4.0|      0.0|           (2,[],[])|         (2,[],[])| (3,[1],[1.0])|(5,[0],[1.0])|    (4,[],[])|(17,[5,7,16],[1.0...|(17,[5,7,16],[1.0...|[82.9397692897919...|[0.82939769289791...|       0.0|
+|        895|     3|    Wirz, Mr. Albert|              27.0|    0|    0|          315154| 8.6625| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,5,7,14,1...|(17,[0,2,5,7,14,1...|[87.3567925574052...|[0.87356792557405...|       0.0|
+|        896|     3|Hirvonen, Mrs. Al...|              22.0|    1|    1|         3101298|12.2875| null|       S|             0.0|           0.0|   0|            2|         2|     2.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|(17,[0,2,6,8,14],...|(17,[0,2,6,8,14],...|[45.2717818341471...|[0.45271781834147...|       1.0|
+|        897|     3|Svensson, Mr. Joh...|              14.0|    0|    0|            7538|  9.225| null|       S|             0.0|           0.0|   1|            0|         1|     1.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[1],[1.0])|(17,[0,2,5,7,13,1...|(17,[0,2,5,7,13,1...|[87.2366966000167...|[0.87236696600016...|       0.0|
+|        898|     3|Connolly, Miss. Kate|              30.0|    0|    0|          330972| 7.6292| null|       Q|             2.0|           0.0|   0|            0|         1|     2.0|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,5,7,14],[1...|(17,[0,5,7,14],[1...|[37.0204486567396...|[0.37020448656739...|       1.0|
+|        899|     2|Caldwell, Mr. Alb...|              26.0|    1|    1|          248738|   29.0| null|       S|             0.0|           2.0|   1|            2|         2|     2.0|      2.0|       (2,[0],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[2,6,9,14,16]...|(17,[2,6,9,14,16]...|[76.9507019073094...|[0.76950701907309...|       0.0|
+|        900|     3|Abrahim, Mrs. Jos...|              18.0|    0|    0|            2657| 7.2292| null|       C|             1.0|           0.0|   0|            0|         1|     2.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,3,5,7,14],...|(17,[0,3,5,7,14],...|[35.9189004527819...|[0.35918900452781...|       1.0|
+|        901|     3|Davies, Mr. John ...|              21.0|    2|    0|       A/4 48871|  24.15| null|       S|             0.0|           0.0|   1|            2|         2|     2.0|      2.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[0,2,6,9,14,1...|(17,[0,2,6,9,14,1...|[81.5179754108116...|[0.81517975410811...|       0.0|
+|        902|     3|    Ilieff, Mr. Ylio|30.272590361445783|    0|    0|          349220| 7.8958| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,5,7,14,1...|(17,[0,2,5,7,14,1...|[87.3567925574052...|[0.87356792557405...|       0.0|
+|        903|     1|Jones, Mr. Charle...|              46.0|    0|    0|             694|   26.0| null|       S|             0.0|           1.0|   1|            0|         1|     3.0|      2.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[1],[1.0])|(5,[2],[1.0])|(4,[3],[1.0])|(17,[1,2,5,9,15,1...|(17,[1,2,5,9,15,1...|[69.0535441374432...|[0.69053544137443...|       0.0|
+|        904|     1|Snyder, Mrs. John...|              23.0|    1|    0|           21228|82.2667|  B45|       S|             0.0|           1.0|   0|            1|         2|     2.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[2],[1.0])|(17,[1,2,6,11,14]...|(17,[1,2,6,11,14]...|[7.78825557569810...|[0.07788255575698...|       1.0|
+|        905|     2|Howard, Mr. Benjamin|              63.0|    1|    0|           24065|   26.0| null|       S|             0.0|           2.0|   1|            1|         2|     4.0|      2.0|       (2,[0],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|    (4,[],[])|(17,[2,6,9,16],[1...|(17,[2,6,9,16],[1...|[72.9336151271925...|[0.72933615127192...|       0.0|
+|        906|     1|Chaffee, Mrs. Her...|              47.0|    1|    0|     W.E.P. 5734| 61.175|  E31|       S|             0.0|           1.0|   0|            1|         2|     3.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|(17,[1,2,6,11,15]...|(17,[1,2,6,11,15]...|[8.24843807515673...|[0.08248438075156...|       1.0|
+|        907|     2|del Carlo, Mrs. S...|              24.0|    1|    0|   SC/PARIS 2167|27.7208| null|       C|             1.0|           2.0|   0|            1|         2|     2.0|      2.0|       (2,[1],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[3,6,9,14],[1...|(17,[3,6,9,14],[1...|[18.3329092911795...|[0.18332909291179...|       1.0|
+|        908|     2|   Keane, Mr. Daniel|              35.0|    0|    0|          233734|  12.35| null|       Q|             2.0|           2.0|   1|            0|         1|     3.0|      1.0|           (2,[],[])|         (2,[],[])| (3,[1],[1.0])|(5,[1],[1.0])|(4,[3],[1.0])|(17,[5,8,15,16],[...|(17,[5,8,15,16],[...|[78.5495728597467...|[0.78549572859746...|       0.0|
+|        909|     3|   Assaf, Mr. Gerios|              21.0|    0|    0|            2692|  7.225| null|       C|             1.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,3,5,7,14,1...|(17,[0,3,5,7,14,1...|[87.8820663591764...|[0.87882066359176...|       0.0|
+|        910|     3|Ilmakangas, Miss....|              27.0|    1|    0|STON/O2. 3101270|  7.925| null|       S|             0.0|           0.0|   0|            1|         2|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,6,7,14],...|(17,[0,2,6,7,14],...|[59.6285634137975...|[0.59628563413797...|       0.0|
+|        911|     3|"Assaf Khalil, Mr...|              45.0|    0|    0|            2696|  7.225| null|       C|             1.0|           0.0|   0|            0|         1|     3.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|(17,[0,3,5,7,15],...|(17,[0,3,5,7,15],...|[50.9686141986143...|[0.50968614198614...|       0.0|
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+only showing top 20 rows
+
+2023-04-06T18:54:18.678+0000: [GC (Allocation Failure) [PSYoungGen: 2258817K->54371K(2354688K)] 2767223K->562777K(7306752K), 0.0551813 secs] [Times: user=0.10 sys=0.00, real=0.05 secs] 
+Executing command, time = 1680807259614.
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+|PassengerId|Pclass|                Name|               Age|SibSp|Parch|          Ticket|   Fare|Cabin|Embarked|Embarked_Indexed|Pclass_Indexed|Male|FamilyMembers|FamilySize|AgeGroup|FareGroup|Embarked_Indexed_Vec|Pclass_Indexed_Vec|FamilySize_Vec|FareGroup_Vec| AgeGroup_Vec| prediction_survival|            features|       rawPrediction|         probability|prediction|
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+|        892|     3|    Kelly, Mr. James|              34.5|    0|    0|          330911| 7.8292| null|       Q|             2.0|           0.0|   1|            0|         1|     2.0|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,5,7,14,16]...|(17,[0,5,7,14,16]...|[87.4176776600730...|[0.87417677660073...|       0.0|
+|        893|     3|Wilkes, Mrs. Jame...|              47.0|    1|    0|          363272|    7.0| null|       S|             0.0|           0.0|   0|            1|         2|     3.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|(17,[0,2,6,7,15],...|(17,[0,2,6,7,15],...|[63.3261391778415...|[0.63326139177841...|       0.0|
+|        894|     2|Myles, Mr. Thomas...|              62.0|    0|    0|          240276| 9.6875| null|       Q|             2.0|           2.0|   1|            0|         1|     4.0|      0.0|           (2,[],[])|         (2,[],[])| (3,[1],[1.0])|(5,[0],[1.0])|    (4,[],[])|(17,[5,7,16],[1.0...|(17,[5,7,16],[1.0...|[82.9397692897919...|[0.82939769289791...|       0.0|
+|        895|     3|    Wirz, Mr. Albert|              27.0|    0|    0|          315154| 8.6625| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,5,7,14,1...|(17,[0,2,5,7,14,1...|[87.3567925574052...|[0.87356792557405...|       0.0|
+|        896|     3|Hirvonen, Mrs. Al...|              22.0|    1|    1|         3101298|12.2875| null|       S|             0.0|           0.0|   0|            2|         2|     2.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|(17,[0,2,6,8,14],...|(17,[0,2,6,8,14],...|[45.2717818341471...|[0.45271781834147...|       1.0|
+|        897|     3|Svensson, Mr. Joh...|              14.0|    0|    0|            7538|  9.225| null|       S|             0.0|           0.0|   1|            0|         1|     1.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[1],[1.0])|(17,[0,2,5,7,13,1...|(17,[0,2,5,7,13,1...|[87.2366966000167...|[0.87236696600016...|       0.0|
+|        898|     3|Connolly, Miss. Kate|              30.0|    0|    0|          330972| 7.6292| null|       Q|             2.0|           0.0|   0|            0|         1|     2.0|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,5,7,14],[1...|(17,[0,5,7,14],[1...|[37.0204486567396...|[0.37020448656739...|       1.0|
+|        899|     2|Caldwell, Mr. Alb...|              26.0|    1|    1|          248738|   29.0| null|       S|             0.0|           2.0|   1|            2|         2|     2.0|      2.0|       (2,[0],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[2,6,9,14,16]...|(17,[2,6,9,14,16]...|[76.9507019073094...|[0.76950701907309...|       0.0|
+|        900|     3|Abrahim, Mrs. Jos...|              18.0|    0|    0|            2657| 7.2292| null|       C|             1.0|           0.0|   0|            0|         1|     2.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,3,5,7,14],...|(17,[0,3,5,7,14],...|[35.9189004527819...|[0.35918900452781...|       1.0|
+|        901|     3|Davies, Mr. John ...|              21.0|    2|    0|       A/4 48871|  24.15| null|       S|             0.0|           0.0|   1|            2|         2|     2.0|      2.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[0,2,6,9,14,1...|(17,[0,2,6,9,14,1...|[81.5179754108116...|[0.81517975410811...|       0.0|
+|        902|     3|    Ilieff, Mr. Ylio|30.272590361445783|    0|    0|          349220| 7.8958| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,5,7,14,1...|(17,[0,2,5,7,14,1...|[87.3567925574052...|[0.87356792557405...|       0.0|
+|        903|     1|Jones, Mr. Charle...|              46.0|    0|    0|             694|   26.0| null|       S|             0.0|           1.0|   1|            0|         1|     3.0|      2.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[1],[1.0])|(5,[2],[1.0])|(4,[3],[1.0])|(17,[1,2,5,9,15,1...|(17,[1,2,5,9,15,1...|[69.0535441374432...|[0.69053544137443...|       0.0|
+|        904|     1|Snyder, Mrs. John...|              23.0|    1|    0|           21228|82.2667|  B45|       S|             0.0|           1.0|   0|            1|         2|     2.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[2],[1.0])|(17,[1,2,6,11,14]...|(17,[1,2,6,11,14]...|[7.78825557569810...|[0.07788255575698...|       1.0|
+|        905|     2|Howard, Mr. Benjamin|              63.0|    1|    0|           24065|   26.0| null|       S|             0.0|           2.0|   1|            1|         2|     4.0|      2.0|       (2,[0],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|    (4,[],[])|(17,[2,6,9,16],[1...|(17,[2,6,9,16],[1...|[72.9336151271925...|[0.72933615127192...|       0.0|
+|        906|     1|Chaffee, Mrs. Her...|              47.0|    1|    0|     W.E.P. 5734| 61.175|  E31|       S|             0.0|           1.0|   0|            1|         2|     3.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|(17,[1,2,6,11,15]...|(17,[1,2,6,11,15]...|[8.24843807515673...|[0.08248438075156...|       1.0|
+|        907|     2|del Carlo, Mrs. S...|              24.0|    1|    0|   SC/PARIS 2167|27.7208| null|       C|             1.0|           2.0|   0|            1|         2|     2.0|      2.0|       (2,[1],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[3,6,9,14],[1...|(17,[3,6,9,14],[1...|[18.3329092911795...|[0.18332909291179...|       1.0|
+|        908|     2|   Keane, Mr. Daniel|              35.0|    0|    0|          233734|  12.35| null|       Q|             2.0|           2.0|   1|            0|         1|     3.0|      1.0|           (2,[],[])|         (2,[],[])| (3,[1],[1.0])|(5,[1],[1.0])|(4,[3],[1.0])|(17,[5,8,15,16],[...|(17,[5,8,15,16],[...|[78.5495728597467...|[0.78549572859746...|       0.0|
+|        909|     3|   Assaf, Mr. Gerios|              21.0|    0|    0|            2692|  7.225| null|       C|             1.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,3,5,7,14,1...|(17,[0,3,5,7,14,1...|[87.8820663591764...|[0.87882066359176...|       0.0|
+|        910|     3|Ilmakangas, Miss....|              27.0|    1|    0|STON/O2. 3101270|  7.925| null|       S|             0.0|           0.0|   0|            1|         2|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,6,7,14],...|(17,[0,2,6,7,14],...|[59.6285634137975...|[0.59628563413797...|       0.0|
+|        911|     3|"Assaf Khalil, Mr...|              45.0|    0|    0|            2696|  7.225| null|       C|             1.0|           0.0|   0|            0|         1|     3.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|(17,[0,3,5,7,15],...|(17,[0,3,5,7,15],...|[50.9686141986143...|[0.50968614198614...|       0.0|
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+only showing top 20 rows
+
+Executing command, time = 1680807313955.
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+|PassengerId|Pclass|                Name|               Age|SibSp|Parch|          Ticket|   Fare|Cabin|Embarked|Embarked_Indexed|Pclass_Indexed|Male|FamilyMembers|FamilySize|AgeGroup|FareGroup|Embarked_Indexed_Vec|Pclass_Indexed_Vec|FamilySize_Vec|FareGroup_Vec| AgeGroup_Vec| prediction_survival|            features|       rawPrediction|         probability|prediction|
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+|        892|     3|    Kelly, Mr. James|              34.5|    0|    0|          330911| 7.8292| null|       Q|             2.0|           0.0|   1|            0|         1|     2.0|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,5,7,14,16]...|(17,[0,5,7,14,16]...|[87.4176776600730...|[0.87417677660073...|       0.0|
+|        893|     3|Wilkes, Mrs. Jame...|              47.0|    1|    0|          363272|    7.0| null|       S|             0.0|           0.0|   0|            1|         2|     3.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|(17,[0,2,6,7,15],...|(17,[0,2,6,7,15],...|[63.3261391778415...|[0.63326139177841...|       0.0|
+|        894|     2|Myles, Mr. Thomas...|              62.0|    0|    0|          240276| 9.6875| null|       Q|             2.0|           2.0|   1|            0|         1|     4.0|      0.0|           (2,[],[])|         (2,[],[])| (3,[1],[1.0])|(5,[0],[1.0])|    (4,[],[])|(17,[5,7,16],[1.0...|(17,[5,7,16],[1.0...|[82.9397692897919...|[0.82939769289791...|       0.0|
+|        895|     3|    Wirz, Mr. Albert|              27.0|    0|    0|          315154| 8.6625| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,5,7,14,1...|(17,[0,2,5,7,14,1...|[87.3567925574052...|[0.87356792557405...|       0.0|
+|        896|     3|Hirvonen, Mrs. Al...|              22.0|    1|    1|         3101298|12.2875| null|       S|             0.0|           0.0|   0|            2|         2|     2.0|      1.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[1],[1.0])|(4,[2],[1.0])|(17,[0,2,6,8,14],...|(17,[0,2,6,8,14],...|[45.2717818341471...|[0.45271781834147...|       1.0|
+|        897|     3|Svensson, Mr. Joh...|              14.0|    0|    0|            7538|  9.225| null|       S|             0.0|           0.0|   1|            0|         1|     1.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[1],[1.0])|(17,[0,2,5,7,13,1...|(17,[0,2,5,7,13,1...|[87.2366966000167...|[0.87236696600016...|       0.0|
+|        898|     3|Connolly, Miss. Kate|              30.0|    0|    0|          330972| 7.6292| null|       Q|             2.0|           0.0|   0|            0|         1|     2.0|      0.0|           (2,[],[])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,5,7,14],[1...|(17,[0,5,7,14],[1...|[37.0204486567396...|[0.37020448656739...|       1.0|
+|        899|     2|Caldwell, Mr. Alb...|              26.0|    1|    1|          248738|   29.0| null|       S|             0.0|           2.0|   1|            2|         2|     2.0|      2.0|       (2,[0],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[2,6,9,14,16]...|(17,[2,6,9,14,16]...|[76.9507019073094...|[0.76950701907309...|       0.0|
+|        900|     3|Abrahim, Mrs. Jos...|              18.0|    0|    0|            2657| 7.2292| null|       C|             1.0|           0.0|   0|            0|         1|     2.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,3,5,7,14],...|(17,[0,3,5,7,14],...|[35.9189004527819...|[0.35918900452781...|       1.0|
+|        901|     3|Davies, Mr. John ...|              21.0|    2|    0|       A/4 48871|  24.15| null|       S|             0.0|           0.0|   1|            2|         2|     2.0|      2.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[0,2,6,9,14,1...|(17,[0,2,6,9,14,1...|[81.5179754108116...|[0.81517975410811...|       0.0|
+|        902|     3|    Ilieff, Mr. Ylio|30.272590361445783|    0|    0|          349220| 7.8958| null|       S|             0.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,5,7,14,1...|(17,[0,2,5,7,14,1...|[87.3567925574052...|[0.87356792557405...|       0.0|
+|        903|     1|Jones, Mr. Charle...|              46.0|    0|    0|             694|   26.0| null|       S|             0.0|           1.0|   1|            0|         1|     3.0|      2.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[1],[1.0])|(5,[2],[1.0])|(4,[3],[1.0])|(17,[1,2,5,9,15,1...|(17,[1,2,5,9,15,1...|[69.0535441374432...|[0.69053544137443...|       0.0|
+|        904|     1|Snyder, Mrs. John...|              23.0|    1|    0|           21228|82.2667|  B45|       S|             0.0|           1.0|   0|            1|         2|     2.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[2],[1.0])|(17,[1,2,6,11,14]...|(17,[1,2,6,11,14]...|[7.78825557569810...|[0.07788255575698...|       1.0|
+|        905|     2|Howard, Mr. Benjamin|              63.0|    1|    0|           24065|   26.0| null|       S|             0.0|           2.0|   1|            1|         2|     4.0|      2.0|       (2,[0],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|    (4,[],[])|(17,[2,6,9,16],[1...|(17,[2,6,9,16],[1...|[72.9336151271925...|[0.72933615127192...|       0.0|
+|        906|     1|Chaffee, Mrs. Her...|              47.0|    1|    0|     W.E.P. 5734| 61.175|  E31|       S|             0.0|           1.0|   0|            1|         2|     3.0|      4.0|       (2,[0],[1.0])|     (2,[1],[1.0])| (3,[2],[1.0])|(5,[4],[1.0])|(4,[3],[1.0])|(17,[1,2,6,11,15]...|(17,[1,2,6,11,15]...|[8.24843807515673...|[0.08248438075156...|       1.0|
+|        907|     2|del Carlo, Mrs. S...|              24.0|    1|    0|   SC/PARIS 2167|27.7208| null|       C|             1.0|           2.0|   0|            1|         2|     2.0|      2.0|       (2,[1],[1.0])|         (2,[],[])| (3,[2],[1.0])|(5,[2],[1.0])|(4,[2],[1.0])|(17,[3,6,9,14],[1...|(17,[3,6,9,14],[1...|[18.3329092911795...|[0.18332909291179...|       1.0|
+|        908|     2|   Keane, Mr. Daniel|              35.0|    0|    0|          233734|  12.35| null|       Q|             2.0|           2.0|   1|            0|         1|     3.0|      1.0|           (2,[],[])|         (2,[],[])| (3,[1],[1.0])|(5,[1],[1.0])|(4,[3],[1.0])|(17,[5,8,15,16],[...|(17,[5,8,15,16],[...|[78.5495728597467...|[0.78549572859746...|       0.0|
+|        909|     3|   Assaf, Mr. Gerios|              21.0|    0|    0|            2692|  7.225| null|       C|             1.0|           0.0|   1|            0|         1|     2.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,3,5,7,14,1...|(17,[0,3,5,7,14,1...|[87.8820663591764...|[0.87882066359176...|       0.0|
+|        910|     3|Ilmakangas, Miss....|              27.0|    1|    0|STON/O2. 3101270|  7.925| null|       S|             0.0|           0.0|   0|            1|         2|     2.0|      0.0|       (2,[0],[1.0])|     (2,[0],[1.0])| (3,[2],[1.0])|(5,[0],[1.0])|(4,[2],[1.0])|(17,[0,2,6,7,14],...|(17,[0,2,6,7,14],...|[59.6285634137975...|[0.59628563413797...|       0.0|
+|        911|     3|"Assaf Khalil, Mr...|              45.0|    0|    0|            2696|  7.225| null|       C|             1.0|           0.0|   0|            0|         1|     3.0|      0.0|       (2,[1],[1.0])|     (2,[0],[1.0])| (3,[1],[1.0])|(5,[0],[1.0])|(4,[3],[1.0])|(17,[0,3,5,7,15],...|(17,[0,3,5,7,15],...|[50.9686141986143...|[0.50968614198614...|       0.0|
++-----------+------+--------------------+------------------+-----+-----+----------------+-------+-----+--------+----------------+--------------+----+-------------+----------+--------+---------+--------------------+------------------+--------------+-------------+-------------+--------------------+--------------------+--------------------+--------------------+----------+
+only showing top 20 rows
+
+Executing command, time = 1680807432900.
++-----------+----------+
+|PassengerId|prediction|
++-----------+----------+
+|        892|       0.0|
+|        893|       0.0|
+|        894|       0.0|
+|        895|       0.0|
+|        896|       1.0|
+|        897|       0.0|
+|        898|       1.0|
+|        899|       0.0|
+|        900|       1.0|
+|        901|       0.0|
+|        902|       0.0|
+|        903|       0.0|
+|        904|       1.0|
+|        905|       0.0|
+|        906|       1.0|
+|        907|       1.0|
+|        908|       0.0|
+|        909|       0.0|
+|        910|       0.0|
+|        911|       0.0|
++-----------+----------+
+only showing top 20 rows
+
